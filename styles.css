@@ -282,7 +282,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-vis
     padding: calc(var(--header-h) + 30px) 0 170px;
     padding-left: 100px;
 }
-.hero__content{ max-width: 640px; }
+.hero__content{ max-width: 940px; }
 .hero__title{
   font-size: clamp(34px, 5.4vw, 60px);
   line-height:1.15; font-weight:800; color:#fff;
@@ -1615,55 +1615,33 @@ body{ animation: pageIn .6s var(--ease) both; }
 }
 
 
-
-
-
 .about-quote{
-
     position:relative;
-
     max-width:700px;
-
     margin:50px auto;
-
     text-align:center;
-
     padding:30px 20px;
-
 }
 
 /* Large quotation marks */
 
 .quote-mark{
-
     position:absolute;
-
     font-size:120px;
-
     color:#D4AF37;
-
     opacity:.12;
-
     font-family:Georgia,serif;
-
     user-select:none;
-
     animation:fadeQuote 4s ease-in-out infinite;
-
 }
 
 .quote-open{
-
     top:-20px;
-
     left:0;
-
 }
 
 .quote-close{
-
     bottom:-60px;
-
     right:0;
 
 }
@@ -1671,47 +1649,30 @@ body{ animation: pageIn .6s var(--ease) both; }
 /* Quote */
 
 .quote-content{
-
     position:relative;
-
     z-index:2;
-
 }
 
 /* Decorative symbols */
 
 .quote-symbol{
-
     display:block;
-
     color:#D4AF37;
-
     font-size:22px;
-
     letter-spacing:8px;
-
     margin:10px 0;
-
 }
 
 /* Sanskrit */
 
 .about-quote h3{
-
     margin:18px 0 12px;
-
     font-family:"Noto Serif Devanagari",serif;
-
     font-size:36px;
-
     font-weight:700;
-
     color:#7A4A13;
-
     letter-spacing:1px;
-
     line-height:1.5;
-
     text-shadow:
         0 2px 10px rgba(212,175,55,.25);
 
@@ -1720,69 +1681,42 @@ body{ animation: pageIn .6s var(--ease) both; }
 /* Meaning */
 
 .about-quote p{
-
     margin:0;
-
     font-size:16px;
-
     color:#666;
-
     font-style:italic;
-
     line-height:1.8;
-
 }
 
 /* Soft golden glow */
 
 .about-quote::before{
-
     content:"";
-
     position:absolute;
-
     left:50%;
-
     top:50%;
-
     transform:translate(-50%,-50%);
-
     width:260px;
-
     height:260px;
-
     border-radius:50%;
-
     background:radial-gradient(circle,
         rgba(212,175,55,.12),
         transparent 70%);
-
     z-index:0;
-
 }
 
 /* Animation */
 
 @keyframes fadeQuote{
-
     0%,100%{
-
         opacity:.08;
-
         transform:scale(1);
-
     }
-
     50%{
-
         opacity:.18;
-
         transform:scale(1.05);
-
     }
-
-}
-
+  }
 
 .news__text{
     order:1;
