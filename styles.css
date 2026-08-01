@@ -1200,7 +1200,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-vis
 }
 .filter-tab{
   background: var(--white); border:1px solid rgba(43,24,16,.12);
-  padding:10px 22px; border-radius: var(--radius-pill);
+  padding:10px 14px; border-radius: var(--radius-pill);
   font-size:14px; font-weight:600; color: var(--brown-800);
   transition: all .3s var(--ease); box-shadow: var(--shadow-sm);
 }
@@ -1421,7 +1421,7 @@ html.i18n-swapping [data-i18n]{ opacity:.4; }
   background: var(--cream-soft); border:1px dashed rgba(43,24,16,.25);
   border-radius: var(--radius-sm); padding:10px 14px;
 }
-.upi-id-box span{ font-size:13.5px; font-weight:700; color: var(--brown-900); word-break:break-all; }
+.upi-id-box span{ font-size:11.5px; font-weight:700; color: var(--brown-900); word-break:break-all; }
 .upi-copy-btn{
   flex-shrink:0; background: var(--white); border:1px solid rgba(43,24,16,.15); border-radius:8px;
   width:32px; height:32px; font-size:14px; color: var(--orange-dark); transition: all .2s ease;

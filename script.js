@@ -8,7 +8,7 @@ const TRANSLATIONS = {
   hi: {
     nav_home: "Home", nav_about: "About Us", nav_work: "Our Work", nav_gallery: "Gallery",
     nav_news: "News", nav_contact: "Contact", nav_donate: "Donate Now",
-    hero_title_1: "गौ सेवा ही", hero_title_2: "मानव सेवा है",
+    hero_title_1: "गौ सेवा ही,", hero_title_2: "सबसे बड़ी सेवा है",
     hero_desc: "आइए, गौ माता की सेवा में योगदान दें और उनके जीवन को बेहतर बनाएं। हर छोटा प्रयास एक नई शुरुआत ला सकता है।",
     hero_cta_primary: "गौ सेवा में सहयोग करें", hero_cta_secondary: "हमारे बारे में जानें",
     stat1_label: "गौ माता की सेवा", stat2_label: "सालों का अनुभव", stat3_label: "सेवक हमारे साथ", stat4_label: "गौ माता सुरक्षित",
