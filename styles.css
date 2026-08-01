@@ -1393,7 +1393,7 @@ html.i18n-swapping [data-i18n]{ opacity:.4; }
 /* Payment badges row (donate card) */
 .pay-badges{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
 .pay-badge{
-  font-size:12px; font-weight:700; padding:7px 12px; border-radius: var(--radius-sm);
+  font-size:12px; font-weight:700; padding:7px 9px; border-radius: var(--radius-sm);
   background: var(--cream-soft); color: var(--brown-800); border:1px solid rgba(43,24,16,.08);
 }
 .pay-badge--phonepe{ background:#5F259F; color:#fff; border-color:transparent; }
