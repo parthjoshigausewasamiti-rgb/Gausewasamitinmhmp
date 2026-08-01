@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const amt = btn.textContent.replace(/[₹,]/g, '').trim();
       const phonepeBtn = document.getElementById('phonepeBtn');
       if (phonepeBtn && !isNaN(amt)) {
-        phonepeBtn.href = `upi://pay?pa=YOUR-UPI-ID@bank&pn=Gau%20Sewa%20Samiti%20Neemuch&am=${amt}&cu=INR`;
+        phonepeBtn.href = `upi://pay?pa=gausewasamitineemuch@indianbk&pn=Gau%20Sewa%20Samiti%20Neemuch&am=${amt}&cu=INR`;
       }
     });
   });
